@@ -3,7 +3,7 @@
 ### Clone the Repo
 
 ```bash
-git clone git@github.com:andresmgomez/next-magazine-webpage.git`
+git clone https://github.com/andresmgomez/next-magazine-webpage.git`
 ```
 
 ### Install Dependencies
@@ -13,5 +13,5 @@ We use yarn at the moment. So for the root application run `yarn` to install dep
 
 ### Run the App
 
-To run the app simply run `yarn start`
+To run the app simply run `yarn dev`
 
