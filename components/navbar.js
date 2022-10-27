@@ -1,9 +1,11 @@
 import React from 'react';
 import Link from 'next/link';
 
+import '../styles/layout/navbar.scss';
+
 export default function Navbar() {
 	return (
-		<section className='top-header'>
+		<section className='header-area'>
 			<div className='container'>
 				<div className='row'>
 					<div className='col-12'>

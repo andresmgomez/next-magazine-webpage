@@ -9,10 +9,13 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@zeit/next-sass": "^1.0.1",
     "bootstrap": "4.0.0",
     "next": "13.0.0",
+    "node-sass": "^7.0.3",
     "react": "18.2.0",
-    "react-dom": "18.2.0"
+    "react-dom": "18.2.0",
+    "sass": "^1.55.0"
   },
   "devDependencies": {
     "eslint": "8.26.0",
