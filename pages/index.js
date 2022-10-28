@@ -1,6 +1,6 @@
-import { Col, Container, NavItem, Row, Tab, Tabs } from 'react-bootstrap';
+import Link from 'next/link';
+import { Col, Container, NavItem, Row } from 'react-bootstrap';
 
-import PostCard from '../components/PostCard';
 import styles from '../styles/Home.module.css';
 
 export default function Home() {
@@ -11,20 +11,9 @@ export default function Home() {
 					<Col md={8} lg={12}>
 						<section className={styles.postContent}>
 							<div className={styles.category}>
-								<NavItem className={styles.title}>Top News</NavItem>
-								<Tabs
-									defaultActiveKey='world'
-									id='myTab'
-									role='tablist'
-									className={styles.navTabs}
-								>
-									<Tab eventKey='world' title='world'>
-										<PostCard />
-									</Tab>
-									<Tab eventKey='health' title='health'>
-										<PostCard />
-									</Tab>
-								</Tabs>
+								<Link href='articles/economy'>
+									<NavItem className={styles.title}>Economy</NavItem>
+								</Link>
 							</div>
 						</section>
 					</Col>
