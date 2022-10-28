@@ -1,0 +1,54 @@
+.postCard {
+	position: relative;
+	margin-bottom: 5px;
+	box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+	z-index: 9;
+}
+
+.postCard .thumbnail {
+	position: relative;
+	z-index: 9;
+}
+
+.postCard .thumbnail img {
+	width: 100%;
+}
+
+.postCard .thumbnail .tag {
+	position: absolute;
+	top: 15px;
+	left: 30px;
+	z-index: 99;
+}
+
+.postCard .thumbnail .tag a {
+	display: inline-block;
+	height: 20px;
+	padding: 0 10px;
+	font-size: 10px;
+	color: #0000ff;
+	font-weight: 500;
+	line-height: 20px;
+	letter-spacing: 0.75px;
+	background-color: #ffffff;
+	text-transform: uppercase;
+}
+
+.postCard .thumbnail .tag a:hover,
+.postCard .thumbnail .tag a:focus {
+	background-color: #0000ff;
+	color: #ffffff;
+}
+
+.postCard .content {
+	padding: 20px 30px;
+}
+
+.postCard .content p {
+	margin-bottom: 20px;
+}
+
+.postCard .content .headline h5 {
+	margin-bottom: 10px;
+	font-size: 18px;
+}

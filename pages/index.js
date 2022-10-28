@@ -1,5 +1,6 @@
-import { Col, Container, Nav, NavItem, Row, Tab, Tabs } from 'react-bootstrap';
+import { Col, Container, NavItem, Row, Tab, Tabs } from 'react-bootstrap';
 
+import PostCard from '../components/PostCard';
 import styles from '../styles/Home.module.css';
 
 export default function Home() {
@@ -18,10 +19,10 @@ export default function Home() {
 									className={styles.navTabs}
 								>
 									<Tab eventKey='world' title='world'>
-										World
+										<PostCard />
 									</Tab>
 									<Tab eventKey='health' title='health'>
-										Health
+										<PostCard />
 									</Tab>
 								</Tabs>
 							</div>
