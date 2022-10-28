@@ -1,11 +1,10 @@
-import Link from 'next/link';
-import Navbar from './navbar';
+import TopNavbar from './TopNavbar';
 
 export default function Layout({ children }) {
 	return (
 		<>
 			<header>
-				<Navbar />
+				<TopNavbar />
 			</header>
 			<main>{children}</main>
 		</>
