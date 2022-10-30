@@ -52,3 +52,11 @@
 	margin-bottom: 10px;
 	font-size: 18px;
 }
+
+.postCard .content .meta p {
+	margin-bottom: 0;
+}
+
+.postCard .content .meta p a {
+	font-size: 12px;
+}
